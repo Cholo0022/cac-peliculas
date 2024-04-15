@@ -1,0 +1,54 @@
+main {
+    background: rgb(23, 23, 23);
+}
+
+.principal {
+    background: linear-gradient(to right top, #0000008a, #0000008a), url(../image/principal-imagen.jpg);
+    background-size: cover;
+    background-position: center;
+    max-height: 90vh;
+    height: 460px;
+    color: white;
+    text-align: center;
+}
+
+main section button {
+    background: #9f3647;
+    border: none;
+    border-radius: 5px;
+    color: white;    
+    padding: 1rem 2rem;
+    font-size: 1.2rem;
+}
+
+.buscador {
+    text-align: center;
+    padding: 30px;
+}
+
+.buscador p{
+    color: white;
+    margin-bottom: 20px;
+}
+
+.buscador input{
+    width: 20rem;
+    height: 3rem;
+    border: none;
+    border-radius: 30px;
+    padding: 15px;
+    font-size: 1.5rem;
+}
+
+.buscador button {
+    border-radius: 30px;
+    border: white solid 2px;
+}
+
+.peliculas div div img{
+    max-width: 250px;
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+}
+
