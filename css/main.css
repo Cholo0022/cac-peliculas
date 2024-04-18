@@ -52,3 +52,25 @@ main section button {
     border-radius: 10px;
 }
 
+@media (max-width: 576px){
+   
+    main section button {
+        padding: 0.5rem 1rem;
+        font-size: 1rem;
+    }
+    
+    .buscador {
+        padding: 15px;
+    }
+    
+    .buscador p{
+        margin-bottom: 10px;
+    }
+    
+    .buscador input{
+        width: 10rem;
+        height: 1.5rem;
+        padding: 8px;
+        font-size: 1rem;
+    }
+}
