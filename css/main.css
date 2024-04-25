@@ -50,6 +50,13 @@ main section button {
     width: 100%;
     border: none;
     border-radius: 10px;
+    cursor: pointer;
+}
+
+.peliculas div div img:hover{
+    max-width: 260px;
+    border-style: groove;
+    width: 100%;
 }
 
 @media (max-width: 576px){
