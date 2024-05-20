@@ -1,0 +1,9 @@
+main {
+    background: linear-gradient(to right top, #0000008a, #0000008a), url(../image/patrones-fisuras-elementos-cine_225004-1154.jpg);
+    background-size: cover;
+    background-position: center;
+    max-height: 90vh;
+    height: 460px;
+    color: white;
+    text-align: center;
+}

@@ -15,7 +15,7 @@
     />
     <link rel="stylesheet" href="css/reset.css" />
     <link rel="stylesheet" href="css/header.css" />
-    <link rel="stylesheet" href="css/detalle_main.css" />
+    <link rel="stylesheet" href="css/main_login.css" />
     <link rel="stylesheet" href="css/footer.css" />
 
     <title>CAC-PELICULAS</title>
@@ -24,7 +24,7 @@
     <header>
       <nav>
         <div class="head">
-          <a class="animate" href="index.html">
+          <a class="animate" href="#">
             <img
               src="image/film.svg"
               alt="Logo"
@@ -46,22 +46,34 @@
     </header>
 
     <main>
-      <div class="col-md-3 col-sm-6 col-12 text-center mt-3">
-        <img
-          src="https://image.tmdb.org/t/p/w500//czembW0Rk1Ke7lCJGahbOhdCuhV.jpg"
-          class="img-fluid"
-          alt=""
-        />
-      </div>
-      <div class="descripcion">
-        <h1 class="display-1 d-flex justify-content-center m-2">Dune</h1>
-        <p class="h4">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt,
-          impedit praesentium quis obcaecati atque libero similique minima ipsum
-          quaerat optio consectetur sapiente deleniti officia vel nemo vitae.
-          Impedit, vero mollitia.
-        </p>
-      </div>
+      <form>
+        <div class="row d-flex justify-content-center">
+          <div class="col-2">
+            <div class="col-auto">
+              <input
+                type="email"
+                id="exampleInputEmail1"
+                class="form-control"
+              />
+            </div>
+
+            <div class="col-auto">
+              <input
+                type="password"
+                id="inputPassword6"
+                class="form-control"
+                aria-describedby="passwordHelpInline"
+              />
+            </div>
+
+            <input
+              class="btn btn-primary"
+              type="submit"
+              value="Iniciar Sesión"
+            />
+          </div>
+        </div>
+      </form>
     </main>
 
     <footer>

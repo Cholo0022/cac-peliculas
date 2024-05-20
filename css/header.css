@@ -1,7 +1,7 @@
 header {
-        background-color: #9f3647;
-        color: #ffffff;
-        padding: 1.5rem 1.5rem 0 1.5rem
+    background-color: #9f3647;
+    color: #ffffff;
+    padding: 1.5rem 1.5rem 0 1.5rem
 }
 
 header nav div {
@@ -11,7 +11,7 @@ header nav div {
     margin-right: 40px;
 }
 
-header nav div a{
+header nav div a {
     color: #ffffff;
     text-decoration: none;
     padding: 8px 16px;
@@ -20,18 +20,18 @@ header nav div a{
     font-weight: 700;
 }
 
-.animate:hover{ 
-  display: inline-block;
-  margin: 0 0.5rem;
-  animation: bounce; 
-  animation-duration: 2s; 
+.animate:hover {
+    display: inline-block;
+    margin: 0 0.5rem;
+    animation: bounce;
+    animation-duration: 2s;
 }
 
-header nav div ul{
+header nav div ul {
     margin: auto 0;
 }
 
-header nav div ul li a:hover{
+header nav div ul li a:hover {
     background-color: #181419;
     color: white;
     border-radius: 5px;
@@ -41,7 +41,7 @@ header nav div ul li a:hover{
 }
 
 @media (max-width: 768px) {
-    .head{
+    .head {
         display: flex;
         flex-direction: column;
         text-align: center;
@@ -52,16 +52,16 @@ header nav div ul li a:hover{
     }
 }
 
-@media (max-width: 576px){
-    header nav div a{
+@media (max-width: 576px) {
+    header nav div a {
         padding: 4px 8px;
         font-size: 1rem;
         font-weight: 400;
     }
 
-    
 
-    header nav div ul li a:hover{
+
+    header nav div ul li a:hover {
         background-color: #181419;
         color: white;
         border-radius: 5px;

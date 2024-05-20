@@ -16,7 +16,7 @@ main section button {
     background: #9f3647;
     border: none;
     border-radius: 5px;
-    color: white;    
+    color: white;
     padding: 1rem 2rem;
     font-size: 1.2rem;
 }
@@ -26,12 +26,12 @@ main section button {
     padding: 30px;
 }
 
-.buscador p{
+.buscador p {
     color: white;
     margin-bottom: 20px;
 }
 
-.buscador input{
+.buscador input {
     width: 20rem;
     height: 3rem;
     border: none;
@@ -45,7 +45,7 @@ main section button {
     border: white solid 2px;
 }
 
-.peliculas div div img{
+.peliculas div div img {
     max-width: 250px;
     width: 100%;
     border: none;
@@ -53,28 +53,28 @@ main section button {
     cursor: pointer;
 }
 
-.peliculas div div img:hover{
+.peliculas div div img:hover {
     max-width: 260px;
     border-style: groove;
     width: 100%;
 }
 
-@media (max-width: 576px){
-   
+@media (max-width: 576px) {
+
     main section button {
         padding: 0.5rem 1rem;
         font-size: 1rem;
     }
-    
+
     .buscador {
         padding: 15px;
     }
-    
-    .buscador p{
+
+    .buscador p {
         margin-bottom: 10px;
     }
-    
-    .buscador input{
+
+    .buscador input {
         width: 10rem;
         height: 1.5rem;
         padding: 8px;
