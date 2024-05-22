@@ -15,7 +15,7 @@
     />
     <link rel="stylesheet" href="css/reset.css" />
     <link rel="stylesheet" href="css/header.css" />
-    <link rel="stylesheet" href="css/main_login.css" />
+    <link rel="stylesheet" href="css/main_registro.css" />
     <link rel="stylesheet" href="css/footer.css" />
 
     <title>CAC-PELICULAS</title>
@@ -46,9 +46,17 @@
     </header>
 
     <main>
-      <form action="index.html" method="get" id="loginForm">
+      <form action="login.html" method="get" id="registroForm">
         <div class="formulario">
-          <p class="fs-1">Iniciar Sesión</p>
+          <p class="fs-1">Registro</p>
+          <input type="text" id="nombreInput" placeholder="Nombre" />
+          <span id="nombreError" style="color: red"></span>
+          <!-- Mensaje de error para el nombre -->
+          <br />
+          <input type="text" id="apellidoInput" placeholder="Apellido" />
+          <span id="apellidoError" style="color: red"></span>
+          <!-- Mensaje de error para el apellido -->
+          <br />
           <input
             type="email"
             id="emailInput"
@@ -66,7 +74,15 @@
           <span id="passwordError" style="color: red"></span>
           <!-- Mensaje de error para la contraseña -->
           <br />
-          <button type="submit">Iniciar Sesión</button>
+          <input type="date" id="fechaInput" />
+          <span id="fechaError" style="color: red"></span>
+          <!-- Mensaje de error para la fecha -->
+          <div class="check">
+            <input type="checkbox" id="terminosInput" />
+            <p>Acepto términos y condiciones</p>
+          </div>
+          <br />
+          <button type="submit">Registrarse</button>
         </div>
       </form>
     </main>
@@ -91,6 +107,6 @@
       integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
       crossorigin="anonymous"
     ></script>
-    <script src="js/valida_login.js"></script>
+    <script src="js/valida_registro.js"></script>
   </body>
 </html>
