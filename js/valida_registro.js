@@ -1,9 +1,9 @@
 document
   .getElementById("registroForm")
   .addEventListener("submit", function (event) {
-    event.preventDefault(); // Evitar el envío del formulario por defecto
+    event.preventDefault(); // Evita el envío del formulario por defecto
 
-    // Obtener los valores de los campos
+    // Obtiene los valores de los campos
     var nombre = document.getElementById("nombreInput").value;
     var apellido = document.getElementById("apellidoInput").value;
     var email = document.getElementById("emailInput").value;
@@ -13,21 +13,21 @@ document
 
     // Expresión regular para validar el correo electrónico
     var emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-    // Expresión regular para validar la contraseña: al menos 8 caracteres alfanuméricos
+    // Expresión regular para validar la contraseña con al menos 8 caracteres alfanuméricos
     var passwordRegex = /^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{8,}$/;
 
-    // Limpiar mensajes de error anteriores
+    // Limpia mensajes de error anteriores
     document.getElementById("nombreError").textContent = "";
     document.getElementById("apellidoError").textContent = "";
     document.getElementById("emailError").textContent = "";
     document.getElementById("passwordError").textContent = "";
     document.getElementById("fechaError").textContent = "";
 
-    // Validar que ningún campo esté vacío
+    // Valida que ningún campo esté vacío
     if (!nombre.trim()) {
       document.getElementById("nombreError").textContent =
         "Por favor, ingresa tu nombre.";
-      return; // Detener la ejecución del script
+      return; 
     }
 
     if (!apellido.trim()) {

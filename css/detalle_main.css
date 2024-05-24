@@ -1,26 +1,40 @@
-main{
+main {
     padding-top: 50px;
     background: linear-gradient(to right top, #6d6969a7, #6d6969a7), url(../image/dune.jpg);
     background-size: cover;
     background-position: center;
-    height: 100vh;
+    height: 100%;
     color: white;
     text-align: center;
     font-size: 1.2rem;
     font-weight: 700;
     display: flex;
     justify-content: center;
-    border-radius: 10px;
 }
 
-main div img {
+#detalle-pelicula {
     margin-left: 20px;
-    max-width: 300px;
+    display: flex;
+    height: 80%;
     width: 100%;
     border-radius: 10px;
+    padding: 10px;
 }
 
 .descripcion {
     max-width: 500px;
     margin-left: 50px;
+}
+
+@media (max-width: 768px) {
+    #detalle-pelicula {
+        display: contents;
+        flex-direction: column;
+        justify-content: center;
+        margin: auto;
+    }
+
+    p {
+        padding: 10px;
+    }
 }

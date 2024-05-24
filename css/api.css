@@ -1,0 +1,15 @@
+.pelicula {
+  margin-bottom: 20px;
+  max-width: 260px;
+  margin: 0 auto;
+}
+
+.pelicula img {
+  width: 100%;
+  max-width: 200px;
+}
+
+.pelicula img:hover {
+  max-width: 265px;
+  cursor: pointer;
+}

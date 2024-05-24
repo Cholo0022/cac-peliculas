@@ -17,6 +17,7 @@
     <link rel="stylesheet" href="css/header.css" />
     <link rel="stylesheet" href="css/main.css" />
     <link rel="stylesheet" href="css/footer.css" />
+    <link rel="stylesheet" href="css/api.css" />
 
     <title>CAC-PELICULAS</title>
   </head>
@@ -55,123 +56,19 @@
 
         <button type="button" class="registrarse">Registrate</button>
       </section>
+
       <section class="buscador">
         <p class="h1">¿Qué estas buscando para ver?</p>
         <input type="search" />
         <button>Buscar</button>
       </section>
-      <section class="peliculas container pb-5">
-        <div class="row">
-          <div class="col-md-3 col-sm-6 col-12 text-center mt-3">
-            <a href="detalle.html">
-              <img
-                src="https://image.tmdb.org/t/p/w500//czembW0Rk1Ke7lCJGahbOhdCuhV.jpg"
-                class="img-fluid"
-                alt=""
-              />
-            </a>
-          </div>
-          <div class="col-md-3 col-sm-6 col-12 text-center mt-3">
-            <a href="detalle.html">
-              <img
-                src="https://image.tmdb.org/t/p/w500//czembW0Rk1Ke7lCJGahbOhdCuhV.jpg"
-                class="img-fluid"
-                alt=""
-              />
-            </a>
-          </div>
-          <div class="col-md-3 col-sm-6 col-12 text-center mt-3">
-            <a href="detalle.html">
-              <img
-                src="https://image.tmdb.org/t/p/w500//czembW0Rk1Ke7lCJGahbOhdCuhV.jpg"
-                class="img-fluid"
-                alt=""
-              />
-            </a>
-          </div>
-          <div class="col-md-3 col-sm-6 col-12 text-center mt-3">
-            <a href="detalle.html">
-              <img
-                src="https://image.tmdb.org/t/p/w500//czembW0Rk1Ke7lCJGahbOhdCuhV.jpg"
-                class="img-fluid"
-                alt=""
-              />
-            </a>
-          </div>
-          <div class="col-md-3 col-sm-6 col-12 text-center mt-3">
-            <a href="detalle.html">
-              <img
-                src="https://image.tmdb.org/t/p/w500//czembW0Rk1Ke7lCJGahbOhdCuhV.jpg"
-                class="img-fluid"
-                alt=""
-              />
-            </a>
-          </div>
-          <div class="col-md-3 col-sm-6 col-12 text-center mt-3">
-            <a href="detalle.html">
-              <img
-                src="https://image.tmdb.org/t/p/w500//czembW0Rk1Ke7lCJGahbOhdCuhV.jpg"
-                class="img-fluid"
-                alt=""
-              />
-            </a>
-          </div>
-          <div class="col-md-3 col-sm-6 col-12 text-center mt-3">
-            <a href="detalle.html">
-              <img
-                src="https://image.tmdb.org/t/p/w500//czembW0Rk1Ke7lCJGahbOhdCuhV.jpg"
-                class="img-fluid"
-                alt=""
-              />
-            </a>
-          </div>
-          <div class="col-md-3 col-sm-6 col-12 text-center mt-3">
-            <a href="detalle.html">
-              <img
-                src="https://image.tmdb.org/t/p/w500//czembW0Rk1Ke7lCJGahbOhdCuhV.jpg"
-                class="img-fluid"
-                alt=""
-              />
-            </a>
-          </div>
-          <div class="col-md-3 col-sm-6 col-12 text-center mt-3">
-            <a href="detalle.html">
-              <img
-                src="https://image.tmdb.org/t/p/w500//czembW0Rk1Ke7lCJGahbOhdCuhV.jpg"
-                class="img-fluid"
-                alt=""
-              />
-            </a>
-          </div>
-          <div class="col-md-3 col-sm-6 col-12 text-center mt-3">
-            <a href="detalle.html">
-              <img
-                src="https://image.tmdb.org/t/p/w500//czembW0Rk1Ke7lCJGahbOhdCuhV.jpg"
-                class="img-fluid"
-                alt=""
-              />
-            </a>
-          </div>
-          <div class="col-md-3 col-sm-6 col-12 text-center mt-3">
-            <a href="detalle.html">
-              <img
-                src="https://image.tmdb.org/t/p/w500//czembW0Rk1Ke7lCJGahbOhdCuhV.jpg"
-                class="img-fluid"
-                alt=""
-              />
-            </a>
-          </div>
-          <div class="col-md-3 col-sm-6 col-12 text-center mt-3">
-            <a href="detalle.html">
-              <img
-                src="https://image.tmdb.org/t/p/w500//czembW0Rk1Ke7lCJGahbOhdCuhV.jpg"
-                class="img-fluid"
-                alt=""
-              />
-            </a>
-          </div>
+      <div class="container">
+        <div id="contenedor-peliculas" class="row">
+          <!-- Las películas se insertarán aquí -->
         </div>
-      </section>
+      </div>
+
+      <script src="api.js"></script>
     </main>
 
     <footer>

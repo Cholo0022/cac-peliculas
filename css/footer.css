@@ -19,7 +19,7 @@ footer a {
     font-weight: 700;
 }
 
-footer nav ol li a:hover{
+footer nav ol li a:hover {
     background-color: #181419;
     color: white;
     border-radius: 5px;
@@ -29,16 +29,17 @@ footer nav ol li a:hover{
 }
 
 @media (max-width: 768px) {
-    footer nav ol{
+    footer nav ol {
         flex-direction: column;
         text-align: center;
     }
 
-    footer nav ol li{
+    footer nav ol li {
         margin-top: 1rem;
     }
-    footer nav ol li a:hover{
-    background-color: #181419;
+
+    footer nav ol li a:hover {
+        background-color: #181419;
         color: white;
         border-radius: 5px;
         transition: transform 0.3s, box-shadow 0.3s;

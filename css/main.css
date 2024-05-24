@@ -45,18 +45,21 @@ main section button {
     border: white solid 2px;
 }
 
-.peliculas div div img {
-    max-width: 250px;
-    width: 100%;
-    border: none;
-    border-radius: 10px;
-    cursor: pointer;
+.container p {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    width: 200px;
+    display: inline-block;
+    vertical-align: top;
+    color: white;
+    height: 50px;
 }
 
-.peliculas div div img:hover {
-    max-width: 260px;
-    border-style: groove;
-    width: 100%;
+h3 {
+    font-size: 18px;
+    color: white;
+    padding-bottom: 10px;
 }
 
 @media (max-width: 576px) {
